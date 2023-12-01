@@ -1,0 +1,73 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #f9f9f9;
+}
+
+.chocolate-selector {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.chocolates label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="checkbox"] {
+  margin-right: 8px;
+}
+
+.selected-chocolates {
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: #f5f5f5;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 5px;
+}
+
+p {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+#total-price {
+  color: #5c284a;
+  font-size: 1.2em;
+}
+.chocolate-selector {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  background-image: url("6.jpg"); /* Replace 'path_to_your_image.jpg' with the path to your chocolate image */
+  background-size: cover;
+  background-position: center;
+}
+.selected-chocolates {
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 8px;
+  background-image: url("3.jpg");
+  background-size: cover;
+  background-position: center;
+  background-color: #fafafa; /* Fallback background color */
+}
