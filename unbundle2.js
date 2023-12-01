@@ -18,8 +18,6 @@ document.addEventListener("DOMContentLoaded", () => {
         "milkychoco": 1,
         "DairyMilk Silk Chocolate": 4.5,
         "White Chocolate": 1.5,
-        // Changing the price of Fuse Chocolate to $3
-        // Add or modify other chocolate prices as needed
     };
 
     let selectedChocolates = [];
@@ -28,11 +26,11 @@ document.addEventListener("DOMContentLoaded", () => {
     checkboxes.forEach((checkbox) => {
         checkbox.addEventListener("change", (event) => {
             const selectedChocolate = event.target.value;
-            const price = chocolatePrices[selectedChocolate]; // Retrieve price from the defined object
+            const price = chocolatePrices[selectedChocolate]; 
             if (event.target.checked) {
                 if (selectedChocolates.length < 8) {
                     selectedChocolates.push(selectedChocolate);
-                    total += price; // Use the retrieved price for calculation
+                    total += price;
                 } else {
                     event.target.checked = false;
                     alert(`You can select a maximum of 8 chocolates,Your bill is: $${total}`);
