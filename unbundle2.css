@@ -58,7 +58,7 @@ p {
   padding: 30px;
   border-radius: 10px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-  background-image: url("6.jpg"); /* Replace 'path_to_your_image.jpg' with the path to your chocolate image */
+  background-image: url("6.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -69,5 +69,5 @@ p {
   background-image: url("3.jpg");
   background-size: cover;
   background-position: center;
-  background-color: #fafafa; /* Fallback background color */
+  background-color: #fafafa;
 }
